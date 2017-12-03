@@ -24,7 +24,7 @@ def search(word):
                 return data[lista[0]]
             #if users type N then the program ends
             elif answer.lower() == 'n':
-                return 'Try again'
+                return 'Try again(Intentalo de nuevo)'
             #if response is different than N or Y program ends    
             else:
                 return 'That is not the correct answer, ending program'
